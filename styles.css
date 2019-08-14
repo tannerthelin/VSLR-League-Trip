@@ -118,7 +118,14 @@ a {
 	background-color: #F2F2F2;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
 
- 
+	td {
+		font-size: 18px;		
+		padding: 15px 0px;
+	}
+ 	
+ 	#table-content {
+ 		table-layout: auto;
+ 	}
 }
