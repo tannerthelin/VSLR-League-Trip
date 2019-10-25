@@ -39,7 +39,7 @@ for (var i = 0; i < 4; i++) {
 
 for (var i = 4; i < 10; i++) {	
 	$("#table-body").append(
-	'<tr class="row">' +
+	'<tr class="row section-2">' +
 	'<td class="name-column">' + eastarray[i].name + '</td>' +
 	'<td class="office-column">' + eastarray[i].office + '</td>' +
 	'<td class="current_points">' + eastarray[i].score + '</td>' +
@@ -50,7 +50,7 @@ for (var i = 4; i < 10; i++) {
 
 for (var i = 10; i < 18; i++) {	
 	$("#table-body").append(
-	'<tr class="row">' +
+	'<tr class="row section-3">' +
 	'<td class="name-column">' + eastarray[i].name + '</td>' +
 	'<td class="office-column">' + eastarray[i].office + '</td>' +
 	'<td class="current_points">' + eastarray[i].score + '</td>' +
@@ -61,7 +61,7 @@ for (var i = 10; i < 18; i++) {
 
 for (var i = 18; i < 50; i++) {	
 	$("#table-body").append(
-	'<tr class="row">' +
+	'<tr class="row section-4">' +
 	'<td class="name-column">' + eastarray[i].name + '</td>' +
 	'<td class="office-column">' + eastarray[i].office + '</td>' +
 	'<td class="current_points">' + eastarray[i].score + '</td>' +
@@ -69,57 +69,6 @@ for (var i = 18; i < 50; i++) {
 	'</tr>' 
 	);
 }
-
-// for (var e = 5; e < 12; e++) {
-
-
-// 	if (eastcoast.includes(data[e].office)) {
-		
-// 			$("#table-body").append(
-// 			'<tr class="row">' +
-// 			'<td class="name-column">' + data[e].name + '</td>' +
-// 			'<td class="office-column">' + data[e].office + '</td>' +
-// 			'<td class="current_points">' + data[e].score + '</td>' +
-// 			'<td class="pace_prize">' + "Platinum" + '</td>' +
-// 			'</tr>'
-// 		); 
-// 		}
-	
-// }
-
-// for (var i = 12; i < 25; i++) {
-
-
-// 	if (eastcoast.includes(data[i].office)) {
-		
-// 			$("#table-body").append(
-// 			'<tr class="row">' +
-// 			'<td class="name-column">' + data[i].name + '</td>' +
-// 			'<td class="office-column">' + data[i].office + '</td>' +
-// 			'<td class="current_points">' + data[i].score + '</td>' +
-// 			'<td class="pace_prize">' + "Diamond" + '</td>' +
-// 			'</tr>'
-// 		); 
-// 		}
-	
-// }
-
-// for (var i = 25; i < 85; i++) {
-
-
-// 	if (eastcoast.includes(data[i].office)) {
-		
-// 			$("#table-body").append(
-// 			'<tr class="row">' +
-// 			'<td class="name-column">' + data[i].name + '</td>' +
-// 			'<td class="office-column">' + data[i].office + '</td>' +
-// 			'<td class="current_points">' + data[i].score + '</td>' +
-// 			'<td class="pace_prize">' + "Gold" + '</td>' +
-// 			'</tr>'
-// 		); 
-// 		}
-	
-// }
 
 console.log(eastarray);
 }

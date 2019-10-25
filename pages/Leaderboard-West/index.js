@@ -39,7 +39,7 @@ for (var i = 0; i < 4; i++) {
 
 for (var i = 4; i < 10; i++) {	
 	$("#table-body").append(
-	'<tr class="row">' +
+	'<tr class="row section-2">' +
 	'<td class="name-column">' + westarray[i].name + '</td>' +
 	'<td class="office-column">' + westarray[i].office + '</td>' +
 	'<td class="current_points">' + westarray[i].score + '</td>' +
@@ -50,7 +50,7 @@ for (var i = 4; i < 10; i++) {
 
 for (var i = 10; i < 18; i++) {	
 	$("#table-body").append(
-	'<tr class="row">' +
+	'<tr class="row section-3">' +
 	'<td class="name-column">' + westarray[i].name + '</td>' +
 	'<td class="office-column">' + westarray[i].office + '</td>' +
 	'<td class="current_points">' + westarray[i].score + '</td>' +
@@ -61,7 +61,7 @@ for (var i = 10; i < 18; i++) {
 
 for (var i = 18; i < 50; i++) {	
 	$("#table-body").append(
-	'<tr class="row">' +
+	'<tr class="row section-4">' +
 	'<td class="name-column">' + westarray[i].name + '</td>' +
 	'<td class="office-column">' + westarray[i].office + '</td>' +
 	'<td class="current_points">' + westarray[i].score + '</td>' +
