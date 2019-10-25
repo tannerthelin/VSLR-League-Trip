@@ -43,7 +43,7 @@ for (var i = 4; i < 10; i++) {
 	'<td class="name-column">' + eastarray[i].name + '</td>' +
 	'<td class="office-column">' + eastarray[i].office + '</td>' +
 	'<td class="current_points">' + eastarray[i].score + '</td>' +
-	'<td class="pace_prize">' + "Diamond" + '</td>' +
+	'<td class="pace_prize">' + "Platinum" + '</td>' +
 	'</tr>' 
 	);
 }
@@ -54,7 +54,7 @@ for (var i = 10; i < 18; i++) {
 	'<td class="name-column">' + eastarray[i].name + '</td>' +
 	'<td class="office-column">' + eastarray[i].office + '</td>' +
 	'<td class="current_points">' + eastarray[i].score + '</td>' +
-	'<td class="pace_prize">' + "Platinum" + '</td>' +
+	'<td class="pace_prize">' + "Diamond" + '</td>' +
 	'</tr>' 
 	);
 }
