@@ -26,7 +26,7 @@ for (var i = 0; i < data.length; i++) {
 	//var currentOffice = data[i]
 
 
-	if (grit.includes(data[i].office)) {
+	if (atomic.includes(data[i].office)) {
 			$("#table-body").append(
 			'<tr class="row">' +
 			'<td class="name-column">' + data[i].name + '</td>' +
