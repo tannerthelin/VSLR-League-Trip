@@ -58,6 +58,8 @@ td {
 
 .name-column-long {
 	width: 50%;
+	text-align: left;
+	padding-left: 20px;
 }
 
 .last {
