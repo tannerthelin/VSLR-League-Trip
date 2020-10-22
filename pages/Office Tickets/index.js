@@ -24,9 +24,9 @@ for (var i = 0; i < data.length; i++) {
 	'<tr class="row">' +
 	'<td class="name-column">' + data[i].office_name + '</td>' +
 	'<td class="office-column">' + data[i].highest_division + '</td>' +
-	'<td class="office-column">' + data[i].q4_pace + '</td>' +
+	'<td class="total_pace">' + data[i].q4_pace + '</td>' +
 	'<td class="current_points">' + data[i].q1_tix + '</td>' +
-	'<td class="total_pace">' + data[i].q2_tix + '</td>' +
+	'<td class="current_points">' + data[i].q2_tix + '</td>' +
 	'<td class="current_points">' + data[i].q3_tix + '</td>' +
 	'</tr>'
 ); 
