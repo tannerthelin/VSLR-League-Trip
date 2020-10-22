@@ -109,6 +109,11 @@ a {
 	color: #FF5C35;
 }
 
+.pace_prize {
+	text-align: right;
+	padding-right: 36px;
+}
+
 .row {
 	padding: 0px 30px;
 }
