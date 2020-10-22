@@ -19,7 +19,7 @@ for (var i = 0; i < data.length; i++) {
 	// if (grit.includes(data[i].office)) {
 			$("#table-body").append(
 			'<tr class="row">' +
-			'<td class="name-column">' + data[i].name + '</td>' +
+			'<td class="name-column-long">' + data[i].name + '</td>' +
 			'<td class="office-column">' + data[i].office + '</td>' +
 			'<td class="pace_prize">' + data[i].score + '</td>' +
 			'</tr>'
