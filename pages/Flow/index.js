@@ -33,6 +33,8 @@ for (var i = 0; i < data.length; i++) {
 			'<td class="office-column">' + data[i].office + '</td>' +
 			'<td class="office-column">' + data[i].qualifier + '</td>' +
 			'<td class="current_points">' + data[i].score + '</td>' +
+			'<td class="current_points">' + data[i].IC_2020 + '</td>' +
+			'<td class="current_points">' + data[i].Q4_WC + '</td>' +
 			'<td class="total_pace">' + data[i].pace + '</td>' +
 			'<td class="pace_prize">' + data[i].pace_prize + '</td>' +
 			'</tr>'
